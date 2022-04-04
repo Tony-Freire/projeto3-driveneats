@@ -22,11 +22,7 @@ header
     position: fixed;
 }
 ul {
-<<<<<<< HEAD
-    height: 100%;
-=======
     height: 236px;
->>>>>>> 4149303e7e10ffee9cd320eb460af986f3028d7f
     width: 100%;
     overflow-x: scroll;
     display: flex;
@@ -39,10 +35,6 @@ ul::-webkit-scrollbar
     size: 0;
 }
 li {
-<<<<<<< HEAD
-    border: 5px solid #ffffff;
-=======
->>>>>>> 4149303e7e10ffee9cd320eb460af986f3028d7f
     width: 172px;
     height: 220px;
     background-color: white;
@@ -51,10 +43,6 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-<<<<<<< HEAD
-    align-items: center;
-=======
->>>>>>> 4149303e7e10ffee9cd320eb460af986f3028d7f
     margin-right: 16px;
     position: relative;
 }
@@ -105,116 +93,4 @@ h2
     margin-bottom: 17px;
     margin-left: 19px;
 }
-<<<<<<< HEAD
 /*#endregion */
-footer {
-    width: 100vw;
-    height: 92px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-.botao-finalizar {
-    background-color: gray;
-    width: calc( 100% - 50px);
-    height: calc( 92px - 30px);
-    border-radius: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 20px;
-}
-.botao-finalizar p {
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 23px;
-    letter-spacing: 0.018em;
-    text-align: center;
-    color: white;
-    box-Align: Center;
-    Vertical-align: Top;
-    Letter-spacing: 1.8%;
-}
-.selecionado{
-    border: 5px solid #32b72f;
-    position: relative;
-    filter: drop-shadow(0px 1px 2px rgb(75, 75, 75));
-}
-.botao-liberado{
-    background-color: #32b72f;
-    font-size: 16px;
-    font-weight: 700;
-    
-}
-.botao-liberado > p
-{
-    font-family: Roboto;
-}
-.confirmar-capsula {
-    background-color: #50D074;
-    width: 90%;
-    height: 360px;
-    color: white;
-    border-radius: 9px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
-    padding-top: 21px;
-}
-.confirmar-pedido {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgba(255, 255, 255, 0.7);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
-}
-.confirmar-capsula button {
-    margin-top: 24px;
-    margin-bottom: 20px;
-    background-color: white;
-    outline: none;
-    border: none;
-    width: 90%;
-    height: 50px;
-    border-radius: 100px;
-    font-weight: bold;
-    font-size: 20px;
-    color: #50D074;
-}
-a {
-    text-decoration: none;
-    color: inherit;
-}
-.produtos {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 13px;
-}
-.ocultar{
-    display: none;
-}
-
-=======
-/*#endregion */
->>>>>>> 4149303e7e10ffee9cd320eb460af986f3028d7f
