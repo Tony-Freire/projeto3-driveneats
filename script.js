@@ -70,9 +70,11 @@ function getMoney( str )
 }
 function confirmar(){
    nomePrato = prato.querySelector(".nome-produto").innerHTML;
+  
    nomeBebida = bebida.querySelector(".nome-produto").innerHTML;
    nomeSobremesa = sobremesa.querySelector(".nome-produto").innerHTML;
    document.querySelector(".confirmar-pedido").classList.remove("ocultar");
+   
    document.querySelector(".nome-prato").innerHTML = nomePrato;
    document.querySelector(".nome-bebida").innerHTML = nomeBebida;
    document.querySelector(".nome-sobremesa").innerHTML = nomeSobremesa;

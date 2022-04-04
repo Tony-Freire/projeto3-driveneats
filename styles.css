@@ -40,22 +40,29 @@ li {
     height: 220px;
     background-color: white;
     border-radius: 9px;
-    padding: 18px 14px 13px 14px;
+    padding: 12px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    align-items:center;
+    text-align: left;
     margin-right: 16px;
     position: relative;
 }
+
 li img {
     width: 144px;
     border-radius: 4px;
+    overflow: hidden;
 }
+ion-icon
+{
+    margin-left: 50px;
+} 
+
 .Conteudo
 {
     margin-top: 123px;
-    
+    margin-bottom: 110px;
     display: block;
 }
 /*#region Estilos de textos*/
@@ -88,6 +95,32 @@ h2
     line-height: 10px;
     color: #FFFFFF;
     margin-left: 21px;
+}
+.nome-produto
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 8px;
+    margin-right: 20px;
+    margin-right: 16px;
+    margin-bottom: 4px;
+    color: #333333;
+
+}
+.descricao
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+
+color: #A6A6A6;
 }
 .categoria {
     font-size: 26px;
@@ -137,9 +170,25 @@ footer {
     Letter-spacing: 1.8%;
 }
 .selecionado{
-    border: 5px solid #32b72f;
+    border: 5px solid;
     position: relative;
     filter: drop-shadow(0px 1px 2px rgb(75, 75, 75));
+    border-image: linear-gradient(var(--angle), #32b72f, rgb(197, 243, 90)) 1;
+    border-radius: 4px;
+    animation: 3s rotate linear infinite;
+    box-shadow: 0 0 0 1px green;
+}
+.check
+{
+    margin-top: 5px;
+    font-size: 22px;
+    color: #ffffff;
+}
+.checado
+{
+    margin-top: 5px;
+    font-size: 22px;
+    color: #32b72f;
 }
 .botao-liberado{
     background-color: #32b72f;
@@ -203,4 +252,17 @@ a {
 .ocultar{
     display: none;
 }
+
+
+@keyframes rotate {
+    to {
+      --angle: 360deg;
+    }
+  }
+  
+  @property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+  }
 
